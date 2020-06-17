@@ -205,11 +205,9 @@ $(document).ready(function () {
   !*** ./assets/styles/main.scss ***!
   \*********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-// extracted by mini-css-extract-plugin
-    if(false) { var cssReload; }
-  
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: No PostCSS Config found in: C:\\Users\\Максим\\Desktop\\frntend\\assets\\styles\n    at C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\postcss-load-config\\src\\index.js:91:15\n    at C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\Users\\Максим\\Desktop\\frntend\\node_modules\\postcss-loader\\src\\index.js:208:9");
 
 /***/ }),
 
