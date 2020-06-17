@@ -1,0 +1,385 @@
+body {
+  background: -o-linear-gradient(left, #331a99 20.9px, transparent 1%) center, -o-linear-gradient(#331a99 20.9px, transparent 1%) center, #49368c;
+  background: linear-gradient(90deg, #331a99 20.9px, transparent 1%) center, linear-gradient(#331a99 20.9px, transparent 1%) center, #49368c;
+  background-size: 22px 22px;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background: inherit;
+}
+
+header {
+  padding: 10px;
+  padding-bottom: 0;
+  position: relative;
+  background: #311795;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background: inherit;
+  position: relative;
+  max-width: 100% !important;
+}
+
+.header-logo img {
+  width: 5em;
+}
+
+.login {
+  width: 100%;
+  font-size: 13px;
+  text-align: right;
+  margin-top: 3.5px;
+}
+
+.login a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.lang-ru-ua {
+  text-align: right;
+}
+
+.lang-ru-ua ul {
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  padding: 0;
+}
+
+.lang-ru-ua ul li a {
+  color: lightgray;
+  font-size: 13px;
+}
+
+.lang-ru-ua ul li {
+  display: inline;
+  word-spacing: 6px;
+}
+
+p {
+  color: lightgray;
+  text-align: left;
+  font-family: 'Jost', sans-serif;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+.text-center {
+  background: inherit;
+  font-size: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 35vh;
+}
+
+.fas {
+  color: lightgray;
+  margin-right: 12px;
+}
+
+.main {
+  background: inherit;
+  vertical-align: middle;
+}
+
+.cube__main {
+  position: relative;
+  top: 25vh;
+  width: 20em;
+  margin-left: 90px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: auto auto 1em;
+  padding: 0.5em 0 0.5em 1em;
+  color: #222222;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #331a99;
+  border-width: 1px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.forgot {
+  color: #9a9a9a;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.forgot:hover {
+  color: #404040;
+}
+
+.login-btn {
+  display: inline-block;
+  font-size: 0.80em;
+  float: left;
+  background: #311795;
+  border: 1px solid #1b0d53;
+  border-radius: 5px;
+  padding: 0.8em 4em;
+  color: white;
+  margin-right: 0.5em;
+  -webkit-box-shadow: inset 0 1px 0 fadeout(white, 80%);
+          box-shadow: inset 0 1px 0 fadeout(white, 80%);
+}
+
+.login-btn:hover {
+  background: #4721d7;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.login-btn:active {
+  background: blue;
+  -webkit-box-shadow: inset 0 1px 1px fadeout(black, 90%);
+          box-shadow: inset 0 1px 1px fadeout(black, 90%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.login-btn:focus {
+  outline: none;
+}
+
+.registration-btn {
+  float: right;
+  border-style: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.80em;
+  background: white;
+  padding: 0.8em 3em;
+  color: #331a99;
+  -webkit-box-shadow: inset 0 1px 0 fadeout(white, 80%);
+          box-shadow: inset 0 1px 0 fadeout(white, 80%);
+}
+
+.registration-btn:hover {
+  background: #ededed;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.registration-btn:active {
+  background: blue;
+  -webkit-box-shadow: inset 0 1px 1px fadeout(black, 90%);
+          box-shadow: inset 0 1px 1px fadeout(black, 90%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.registration-btn:focus {
+  outline: none;
+}
+
+.form-login {
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.form {
+  display: none;
+  -webkit-filter: none !important;
+          filter: none !important;
+  width: 35em;
+  height: 28em;
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 23%;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form .form-text {
+  color: midnightblue;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 1em;
+}
+
+.form .form-text {
+  color: midnightblue;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.form span {
+  float: left;
+  font-size: 12px;
+  margin: 0 0 4px 15px;
+  color: #331a99;
+  font-weight: normal;
+}
+
+.buttons {
+  height: 42px;
+  margin-bottom: 25px;
+}
+
+.forgot-pas {
+  text-align: center;
+}
+
+#close-form {
+  color: gray;
+  cursor: pointer;
+}
+
+#close-form:hover {
+  color: crimson;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.far .fa-times-circle {
+  width: 20em;
+  text-align: right;
+}
+
+.closing-button {
+  position: relative;
+  float: right;
+  margin: 1em;
+}
+
+.form-registration {
+  display: none;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.to-login {
+  color: #9a9a9a;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.to-login:hover {
+  color: #404040;
+}
+
+.to-login {
+  float: right;
+  border-style: none;
+  display: inline-block;
+  font-size: 0.80em;
+  background: none;
+  padding: 0.8em 3em;
+  color: #331a99;
+}
+
+.form span {
+  float: left;
+  font-size: 12px;
+  margin: 0 0 4px 15px;
+  color: #331a99;
+  font-weight: normal;
+}
+
+.form .form-text-info {
+  margin-bottom: 2.5em;
+}
+
+.form-forgot {
+  display: none;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.form-forgot .form-text {
+  line-height: 1em;
+}
+
+.btn-sent-email {
+  display: inline-block;
+  font-size: 0.80em;
+  float: left;
+  background: #311795;
+  border: 1px solid #1b0d53;
+  border-radius: 5px;
+  padding: 0.8em 4em;
+  color: white;
+  margin-right: 0.5em;
+  -webkit-box-shadow: inset 0 1px 0 fadeout(white, 80%);
+          box-shadow: inset 0 1px 0 fadeout(white, 80%);
+}
+
+.btn-sent-email:hover {
+  background: #4721d7;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.btn-sent-email:active {
+  background: blue;
+  -webkit-box-shadow: inset 0 1px 1px fadeout(black, 90%);
+          box-shadow: inset 0 1px 1px fadeout(black, 90%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.btn-sent-email:focus {
+  outline: none;
+}
+
+.btn-remember-pas {
+  float: right;
+  border-style: none;
+  display: inline-block;
+  font-size: 0.80em;
+  background: none;
+  padding: 0.8em 3em;
+  color: #331a99;
+}
+
+.form .error {
+  display: none;
+  color: crimson;
+}
+
+@media (max-width: 800px) {
+  header {
+    margin-right: 5%;
+  }
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/

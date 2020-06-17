@@ -1,0 +1,253 @@
+input {
+  display: block;
+  width: 100%;
+  margin: auto auto 1em;
+  padding: 0.5em 0 0.5em 1em;
+  color: #222222;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #331a99;
+  border-width: 1px;
+  font-size: 14px;
+  &:focus {
+    outline: none;
+  }
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.forgot {
+  color: lighten(gray, 10%);
+  text-decoration: none;
+  font-size: 0.75em;
+  &:hover {
+    color: darken(gray, 25%);
+  }
+  &:active{
+  }
+}
+
+.login-btn {
+  display: inline-block;
+  font-size: 0.80em;
+  float: left;
+  background: #311795;
+  border: 1px solid darken(#311795, 15%);
+  border-radius: 5px;
+  padding: 0.8em 4em;
+  color: white;
+  margin-right: 0.5em;
+  box-shadow: inset 0 1px 0 fadeout(white, 80%);
+  &:hover {
+    background: lighten(#311795, 15%);
+    transition: 1s;
+  }
+  &:active {
+    background: blue;
+    box-shadow: inset 0 1px 1px fadeout(black, 90%);
+    transition: 1s;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.registration-btn {
+  float: right;
+  border-style: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.80em;
+  background: white;
+  padding: 0.8em 3em;
+  color: #331a99;
+  box-shadow: inset 0 1px 0 fadeout(white, 80%);
+  &:hover {
+    background: lighten(lightgray, 10%);
+    transition: 1s;
+  }
+  &:active {
+    background: blue;
+    box-shadow: inset 0 1px 1px fadeout(black, 90%);
+    transition: 1s;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.form-login {
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.form {
+  display: none;
+  filter: none !important;
+  width: 35em;
+  height: 28em;
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 23%;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  //line-height: 20px;
+}
+
+.form .form-text {
+  color: midnightblue;
+  font-weight: bold;
+  font-size: 30px;
+  //font-family: "Segoe UI";
+  margin: 1em;
+}
+
+.form .form-text {
+  color: midnightblue;
+  font-weight: bold;
+  font-size: 30px;
+  //font-family: "Segoe UI";
+}
+
+.form span {
+  float: left;
+  font-size: 12px;
+  margin: 0 0 4px 15px;
+  color: #331a99;
+  font-weight: normal;
+}
+
+.buttons {
+  height: 42px;
+  margin-bottom: 25px;
+}
+
+.forgot-pas {
+  text-align: center;
+
+}
+
+#close-form {
+  color: gray;
+  cursor: pointer;
+
+}
+
+#close-form:hover {
+  color: crimson;
+  transition: 1s;
+}
+
+.far .fa-times-circle {
+  width: 20em;
+  text-align: right;
+}
+
+.closing-button {
+  position: relative;
+  float: right;
+  margin: 1em;
+}
+
+.form-registration {
+    display: none;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.to-login {
+  color: lighten(gray, 10%);
+  text-decoration: none;
+  font-size: 0.75em;
+  &:hover {
+    color: darken(gray, 25%);
+  }
+  &:active{
+  }
+}
+
+.to-login {
+  float: right;
+  border-style: none;
+  display: inline-block;
+  font-size: 0.80em;
+  background: none;
+  padding: 0.8em 3em;
+  color: #331a99;
+}
+
+.form span {
+  float: left;
+  font-size: 12px;
+  margin: 0 0 4px 15px;
+  color: #331a99;
+  font-weight: normal;
+}
+
+.form .form-text-info {
+  margin-bottom: 2.5em;
+}
+
+.form-forgot {
+  display: none;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.form-forgot .form-text {
+  line-height: 1em;
+}
+
+.btn-sent-email {
+  display: inline-block;
+  font-size: 0.80em;
+  float: left;
+  background: #311795;
+  border: 1px solid darken(#311795, 15%);
+  border-radius: 5px;
+  padding: 0.8em 4em;
+  color: white;
+  margin-right: 0.5em;
+  box-shadow: inset 0 1px 0 fadeout(white, 80%);
+  &:hover {
+    background: lighten(#311795, 15%);
+    transition: 1s;
+  }
+  &:active {
+    background: blue;
+    box-shadow: inset 0 1px 1px fadeout(black, 90%);
+    transition: 1s;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-remember-pas {
+  float: right;
+  border-style: none;
+  display: inline-block;
+  font-size: 0.80em;
+  background: none;
+  padding: 0.8em 3em;
+  color: #331a99;
+}
+
+.form .error {
+  display: none;
+  color: crimson;
+}

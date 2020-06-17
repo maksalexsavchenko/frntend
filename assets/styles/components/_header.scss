@@ -1,0 +1,111 @@
+$bg-color: hsl(252, 71%, 35%);
+$dot-color: hsl(253, 44%, 38%);
+
+$dot-size: 1.1px;
+$dot-space: 22px;
+
+body {
+  background:
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+  background: inherit;
+}
+header {
+  padding: 10px;
+  padding-bottom: 0;
+  position: relative;
+  background: rgb(49, 23, 149);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+.container {
+  background: inherit;
+  position: relative;
+  max-width: 100% !important;
+}
+
+.header-logo img{
+    width: 5em;
+}
+
+.login {
+  width: 100%;
+  font-size: 13px;
+  text-align: right;
+  margin-top: 3.5px;
+}
+
+.login a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 13px;
+}
+.lang-ru-ua {
+  text-align: right;
+}
+.lang-ru-ua ul {
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  padding: 0;
+}
+
+.lang-ru-ua ul li a{
+  color: lightgray;
+  font-size: 13px;
+
+
+}
+
+.lang-ru-ua ul li{
+  display: inline;
+  word-spacing: 6px;
+}
+
+p {
+  color: lightgray;
+  text-align: left;
+  font-family: 'Jost', sans-serif;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+.text-center {
+  background: inherit;
+  font-size: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 35vh;
+  //text-align: center;
+ // margin-right: auto;
+ // margin-left: auto;
+}
+
+.fas {
+  color: lightgray;
+  margin-right: 12px;
+}
+
+.main {
+  background: inherit;
+  vertical-align: middle;
+}
+
+.cube__main {
+  position: relative;
+  top: 25vh;
+  width: 20em;
+  margin-left: 90px;
+}
+
+
+
+
