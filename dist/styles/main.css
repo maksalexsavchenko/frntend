@@ -91,8 +91,8 @@ p {
 
 .cube__main {
   position: relative;
-  top: 25vh;
-  width: 20em;
+  top: 21vh;
+  width: 26em;
   margin-left: 90px;
 }
 
@@ -372,12 +372,6 @@ button:focus {
 .form .error {
   display: none;
   color: crimson;
-}
-
-@media (max-width: 800px) {
-  header {
-    margin-right: 5%;
-  }
 }
 
 
