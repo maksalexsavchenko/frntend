@@ -415,7 +415,7 @@ button:focus {
 
   #login-form {
     width: auto;
-    height: 100%;
+    min-height: 100%;
     top: 0%;
   }
 }
