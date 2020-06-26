@@ -65,18 +65,9 @@ header {
 
 p {
   color: lightgray;
-  text-align: left;
   font-family: 'Jost', sans-serif;
   line-height: 50px;
   letter-spacing: 1px;
-}
-
-.text-center {
-  background: inherit;
-  font-size: 35px;
-  text-transform: uppercase;
-  position: relative;
-  top: 35vh;
 }
 
 .fas {
@@ -91,9 +82,31 @@ p {
 
 .cube__main {
   position: relative;
-  top: 21vh;
-  width: 26em;
-  margin-left: 90px;
+  max-width: 50%;
+  min-width: 50%;
+  margin-left: 4vw;
+}
+
+.analytics {
+  position: absolute;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.textcent {
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  position: relative;
+  top: 5vw;
+}
+
+#maincont {
+  top: 13vw;
 }
 
 input {
@@ -372,6 +385,73 @@ button:focus {
 .form .error {
   display: none;
   color: crimson;
+}
+
+@media (max-width: 766px) {
+  .textcent {
+    text-align: center;
+    font-size: 30px;
+    float: none;
+    float: initial;
+    top: 20vw;
+  }
+
+  .cube__main {
+    top: 20vw;
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+    max-width: 80%;
+    left: 10%;
+  }
+
+  .login-btn {
+    padding: 0.8em 8.35em;
+  }
+
+  .registration-btn {
+    padding: 0.8em 7em;
+  }
+
+  #login-form {
+    width: auto;
+    height: 100%;
+    top: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  #maincont {
+    top: 35vw;
+  }
+
+  .textcent {
+    font-size: 32px;
+  }
+
+  .cube__main {
+    margin: 0em;
+    max-width: 80%;
+    left: 4vw;
+  }
+}
+
+@media (max-width: 360px) {
+  #maincont {
+    top: 15vw;
+  }
+}
+
+@media (max-width: 375px) {
+  #maincont {
+    top: 15vw;
+  }
+}
+
+@media (max-width: 415px) {
+  #maincont {
+    top: 10vw;
+  }
 }
 
 

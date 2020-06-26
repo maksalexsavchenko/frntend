@@ -127,13 +127,13 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('#login-btn').on('click', function () {
     $('#login-form').show();
-    $('#blurrie-cube').css({
+    $('.cube__main').css({
       'filter': 'blur(5px)'
     });
     $('#blurrie-head').css({
       'filter': 'blur(5px)'
     });
-    $('#blurrie-text').css({
+    $('.textcent').css({
       'filter': 'blur(5px)'
     });
   });
@@ -147,13 +147,13 @@ $(document).ready(function () {
     $('.form').animate({
       height: "28em"
     });
-    $('#blurrie-cube').css({
+    $('.cube__main').css({
       'filter': 'blur(0px)'
     });
     $('#blurrie-head').css({
       'filter': 'blur(0px)'
     });
-    $('#blurrie-text').css({
+    $('.textcent').css({
       'filter': 'blur(0px)'
     });
   });

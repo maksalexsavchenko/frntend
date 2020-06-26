@@ -1,0 +1,66 @@
+@media (max-width: 766px) {
+    .textcent {
+        text-align: center;
+        font-size: 30px;
+        float: initial;
+        top: 20vw;
+    }
+    .cube__main {
+        top: 20vw;
+        text-align: center;
+        max-width: 100%;
+        margin: 0;
+        max-width: 80%;
+        left: 10%;
+    }
+
+    .login-btn {
+        padding: 0.8em 8.35em;
+     }
+
+     .registration-btn {
+        padding: 0.8em 7em;
+     }
+
+     #login-form {
+        width: auto;
+        height: 100%;
+        top: 0%;
+    }
+}
+
+
+@media (max-width: 768px){
+    #maincont {
+       top: 35vw;
+    }
+
+    .textcent {
+        font-size: 32px;
+    }
+
+    .cube__main {
+        margin: 0em;
+        max-width: 80%;
+        left: 4vw;
+    }
+}
+
+
+@media (max-width: 360px){
+    #maincont {
+       top: 15vw;
+    }
+}
+
+@media (max-width: 375px){
+    #maincont {
+       top: 15vw;
+    }
+}
+
+@media (max-width: 415px){
+    #maincont {
+       top: 10vw;
+    }
+}

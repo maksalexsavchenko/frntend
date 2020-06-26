@@ -72,21 +72,10 @@ header {
 
 p {
   color: lightgray;
-  text-align: left;
+  //text-align: left;
   font-family: 'Jost', sans-serif;
   line-height: 50px;
   letter-spacing: 1px;
-}
-
-.text-center {
-  background: inherit;
-  font-size: 35px;
-  text-transform: uppercase;
-  position: relative;
-  top: 35vh;
-  //text-align: center;
- // margin-right: auto;
- // margin-left: auto;
 }
 
 .fas {
@@ -101,12 +90,33 @@ p {
 
 .cube__main {
   position: relative;
-  top: 21vh;
-  width: 26em;
-  margin-left: 90px;
+  max-width: 50%;
+  min-width: 50%;
+  margin-left: 4vw;
+}
+
+.analytics {
+  position: absolute;
+ max-width: 100%;
+ display: inline-block;
 }
 
 
-.analitika{
-  
+
+
+.textcent {
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  position: relative;
+  //width: 100%;
+  top: 5vw;
+}
+
+#maincont {
+  top: 13vw;
 }
