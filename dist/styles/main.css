@@ -390,7 +390,7 @@ button:focus {
 @media (max-width: 766px) {
   .textcent {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     float: none;
     float: initial;
     top: 20vw;
@@ -432,7 +432,6 @@ button:focus {
   .cube__main {
     margin: 0em;
     max-width: 80%;
-    left: 4vw;
   }
 }
 
